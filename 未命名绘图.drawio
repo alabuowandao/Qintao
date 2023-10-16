@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T05:41:19.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="w5bKWv-07CeZmNfeMy3U" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T06:09:14.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="CckuyehkHlb3er8aM0CG" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IU8KgAFx-TS1kjJKqJMR-5" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;strokeColor=#666666;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="720" height="980" as="geometry" />
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-5" value="新增量检具" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;strokeColor=#666666;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry width="370" height="620" as="geometry" />
         </mxCell>
         <mxCell id="IU8KgAFx-TS1kjJKqJMR-6" value="量检具库" style="swimlane;startSize=20;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-5">
-          <mxGeometry x="20" width="350" height="980" as="geometry" />
+          <mxGeometry x="20" width="350" height="620" as="geometry" />
         </mxCell>
         <mxCell id="IU8KgAFx-TS1kjJKqJMR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="IU8KgAFx-TS1kjJKqJMR-6" source="IU8KgAFx-TS1kjJKqJMR-10" target="IU8KgAFx-TS1kjJKqJMR-11">
           <mxGeometry relative="1" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IU8KgAFx-TS1kjJKqJMR-15" value="新增量检具扫码入库" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-6">
-          <mxGeometry x="200" y="460" width="100" height="60" as="geometry" />
+          <mxGeometry x="200" y="445" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IU8KgAFx-TS1kjJKqJMR-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="IU8KgAFx-TS1kjJKqJMR-6" source="IU8KgAFx-TS1kjJKqJMR-16" target="IU8KgAFx-TS1kjJKqJMR-17">
           <mxGeometry relative="1" as="geometry" />
@@ -71,16 +71,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IU8KgAFx-TS1kjJKqJMR-25" value="量检具编号及赋码" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-6">
-          <mxGeometry x="200" y="350" width="100" height="60" as="geometry" />
+          <mxGeometry x="200" y="335" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IU8KgAFx-TS1kjJKqJMR-30" value="&lt;h1&gt;赋码&lt;/h1&gt;&lt;p&gt;量检具按照单件管理模式，每个量检具单独编号。&lt;/p&gt;&lt;p&gt;有扫码出入库和使用条件的，给量检具赋码（条码或二维码），编码规则可配置。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#393C56;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-6">
           <mxGeometry x="20" y="380" width="150" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="IU8KgAFx-TS1kjJKqJMR-33" value="更新量检具库存台账" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-6">
-          <mxGeometry x="200" y="570" width="100" height="60" as="geometry" />
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-33" value="新建量检具库存台账" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-6">
+          <mxGeometry x="200" y="545" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IU8KgAFx-TS1kjJKqJMR-35" value="生产班组" style="swimlane;startSize=20;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-5">
-          <mxGeometry x="370" width="350" height="980" as="geometry" />
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-75" value="量检具借出归还" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;strokeColor=#666666;fontColor=#333333;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="397" width="430" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-76" value="量检具库" style="swimlane;startSize=20;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-75">
+          <mxGeometry x="20" width="130" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-97" value="生产班组" style="swimlane;startSize=20;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-75">
+          <mxGeometry x="150" width="140" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="IU8KgAFx-TS1kjJKqJMR-97" source="IU8KgAFx-TS1kjJKqJMR-101" target="IU8KgAFx-TS1kjJKqJMR-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-101" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-97">
+          <mxGeometry x="45" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-102" value="申领量检具" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-97">
+          <mxGeometry x="20" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-98" value="质检组" style="swimlane;startSize=20;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-75">
+          <mxGeometry x="290" width="140" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-104" value="申领量检具" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="IU8KgAFx-TS1kjJKqJMR-98">
+          <mxGeometry x="20" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IU8KgAFx-TS1kjJKqJMR-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="IU8KgAFx-TS1kjJKqJMR-75" source="IU8KgAFx-TS1kjJKqJMR-101" target="IU8KgAFx-TS1kjJKqJMR-104">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
